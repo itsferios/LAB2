@@ -7,6 +7,8 @@ After extracting the macro categories for the economic sectors, we proceeded to 
 
 To verify the normal distribution of the data (Gaussian Distribution), we have applied the Shapiro-Wilk Test, which makes the data non-Gaussian. For this reason, non-parametric stastical methods should be used in the future. 
 
+Before starting with the PCA, we check the original feature correlation. As we can see from the matrix, the highest correlation is between the Codice_ateco (which is the category of the economy sector) and the gender (male or female): it means that the sector in which a person can work, depend if you are a man or woman. 
+
 To reduce the number of columns, we found component1 and component2 via PCA and saw the correlation they have with all of our columns.
 Si vede che VEDERE MATRICE !!!!
 
