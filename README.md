@@ -13,8 +13,6 @@ To reduce the number of columns, we found component1 and component2 via PCA and 
   - component1 with 'ANNO' and 'modalitalavoro_transformed'
   - component2 with 'ETA' and 'nazionalita_transformed'
 
-Linearity
-
 We found outliers, such as a contract activated in 2201 and an age of 221. 
 In addition, we also removed all those contracts entered into with people younger than 15 years old, because this is not allowed in Italy. 
 
