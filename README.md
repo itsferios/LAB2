@@ -6,7 +6,7 @@ FERIOLI SARA - 733105
 In Lab21.ipynb.zip you can find the notebook zipped. 
 
 In this lab, we analyzed and prepared the data, to be used in future methods. 
-After extracting the macro categories for the economic sectors, we proceeded to Label Econcoding, using principalemnte two methodologies:
+After extracting the macro categories for the economic sectors, we proceeded to Label Econcoding, using principally two methodologies:
   1. Label Encoder used on 'TITOLOSTUDIO', 'MODALITALAVORO', 'PROVINCIAIMPRESA', 'ITALIANO'. 
   2. Encoding Manually Ordinal Categorical Features used only on GENERE, because the column has two distinct values (M and F, transformed into 0 and 1).
 
@@ -26,10 +26,10 @@ For the seasonality, we can observe that in the month of August (in all years), 
 We check the stationarity and we notice that the mean is increasing, so the series is not stationary. Test Statistic is higher than the Critical Values.
 
 Verify Forecastability of a Time Serie: Approximated Entropy and Sample Entropy are calculated. 
-For the Approximated Entropy, if the value is close to 0, then the data is more predictable and therefore observable. this is the case for years.
-otherwise, for the age, which has a value more distant from 0, we can say that it is not regular and predictable
+For the Approximated Entropy, if the value is close to 0, then the data is more predictable and therefore observable. This is the case for years.
+Otherwise, for the age, which has a value more distant from 0, we can say that it is not regular and predictable.
 
 Descriptive analysis: In this section, we consider only indeterminate contracts and analyze how this type is distributed across industries. 
 
-Group by features given: The idea is to consider non-modifiable features for each person (gender, age, and nationality) and to target an indeterminated contract. The result, will be to get the best combination of all other features to get the contract.
+Group by features given: The idea is to consider non-modifiable features for each person (gender, age, and nationality) and to target an indeterminated contract. The result will be to get the best combination of all output features to get the contract.
 The combination of age, gender and nationality which have the higest number of activated contract is a 30 years old man from Italy. 
