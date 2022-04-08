@@ -1,5 +1,10 @@
 # LAB2
 
+MICHELA PIROZZI - 732531
+FERIOLI SARA - 733105
+
+In Lab21.ipynb.zip you can find the notebook zipped. 
+
 In this lab, we analyzed and prepared the data, to be used in future methods. 
 After extracting the macro categories for the economic sectors, we proceeded to Label Econcoding, using principalemnte two methodologies:
   1. Label Encoder used on 'TITOLOSTUDIO', 'MODALITALAVORO', 'PROVINCIAIMPRESA', 'ITALIANO'. 
