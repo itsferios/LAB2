@@ -9,8 +9,9 @@ To verify the normal distribution of the data (Gaussian Distribution), we have a
 
 Before starting with the PCA, we check the original feature correlation. As we can see from the matrix, the highest correlation is between the Codice_ateco (which is the category of the economy sector) and the gender (male or female): it means that the sector in which a person can work, depend if you are a man or woman. 
 
-To reduce the number of columns, we found component1 and component2 via PCA and saw the correlation they have with all of our columns.
-Si vede che VEDERE MATRICE !!!!
+To reduce the number of columns, we found component1 and component2 via PCA and saw the correlation they have with all of our columns. Here, we can see some correlations:
+  - component1 with 'ANNO' and 'modalitalavoro_transformed'
+  - component2 with 'ETA' and 'nazionalita_transformed'
 
 Linearity
 
