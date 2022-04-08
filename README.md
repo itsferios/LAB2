@@ -25,4 +25,4 @@ otherwise, for the age, which has a value more distant from 0, we can say that i
 
 Descriptive analysis: In this section, we consider only indeterminate contracts and analyze how this type is distributed across industries. 
 
-Group by features given: The idea is to consider non-modifiable features for each person (gender, age, and nationality) and to target an open-ended contract. The result, will be to get the best combination of all other features to get the contract.
+Group by features given: The idea is to consider non-modifiable features for each person (gender, age, and nationality) and to target an indeterminated contract. The result, will be to get the best combination of all other features to get the contract.
